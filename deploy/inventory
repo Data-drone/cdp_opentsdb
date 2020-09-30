@@ -1,0 +1,3 @@
+[cdp_edge_node]
+ip-10-0-1-87.ap-southeast-2.compute.internal ansible_host=54.79.98.0 host_template=HostTemplate-Edge # i-04a7733ae1d0e4cff 
+

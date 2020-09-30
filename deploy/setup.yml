@@ -1,0 +1,18 @@
+---
+
+- hosts: cdp_edge_node
+  become: yes
+
+  tasks:
+  - name: install gnuplot
+    yum:
+      name: gnuplot
+      status: present
+
+  - name: get the and install v2.4.0 of opentsdb
+    yum:
+      name: https://github.com/OpenTSDB/opentsdb/releases/download/v2.4.0/opentsdb-2.4.0.noarch.rpm
+      status: present
+
+    
+      
